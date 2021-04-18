@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		FDA170E8261CC54C0072C1A9 /* RockPaperScissorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA170E7261CC54C0072C1A9 /* RockPaperScissorsApp.swift */; };
-		FDA170EA261CC54C0072C1A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA170E9261CC54C0072C1A9 /* ContentView.swift */; };
 		FDA170EC261CC5510072C1A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA170EB261CC5510072C1A9 /* Assets.xcassets */; };
 		FDA170EF261CC5510072C1A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA170EE261CC5510072C1A9 /* Preview Assets.xcassets */; };
+		FDA170FA261CC7380072C1A9 /* RPSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA170F9261CC7380072C1A9 /* RPSView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FDA170E4261CC54C0072C1A9 /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA170E7261CC54C0072C1A9 /* RockPaperScissorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsApp.swift; sourceTree = "<group>"; };
-		FDA170E9261CC54C0072C1A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FDA170EB261CC5510072C1A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDA170EE261CC5510072C1A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDA170F0261CC5510072C1A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDA170F1261CC5510072C1A9 /* RockPaperScissors.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RockPaperScissors.entitlements; sourceTree = "<group>"; };
+		FDA170F9261CC7380072C1A9 /* RPSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPSView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				FDA170E7261CC54C0072C1A9 /* RockPaperScissorsApp.swift */,
-				FDA170E9261CC54C0072C1A9 /* ContentView.swift */,
+				FDA170F9261CC7380072C1A9 /* RPSView.swift */,
 				FDA170EB261CC5510072C1A9 /* Assets.xcassets */,
 				FDA170F0261CC5510072C1A9 /* Info.plist */,
 				FDA170F1261CC5510072C1A9 /* RockPaperScissors.entitlements */,
@@ -140,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDA170EA261CC54C0072C1A9 /* ContentView.swift in Sources */,
+				FDA170FA261CC7380072C1A9 /* RPSView.swift in Sources */,
 				FDA170E8261CC54C0072C1A9 /* RockPaperScissorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +281,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.RockPaperScissors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -303,6 +304,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.RockPaperScissors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
